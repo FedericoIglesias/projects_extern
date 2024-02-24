@@ -2,34 +2,36 @@ import styled from "styled-components";
 import profile from "../img/profile.jpg";
 
 const AboutSection = styled.section`
-  height: 100vh;
-  background-color: black;
+  height: 90vh;
   display: flex;
   color: white;
   div {
     width: 50%;
-    padding: 10% 0;
+    padding: 7% 0;
   }
   div:nth-child(1) {
     display: flex;
     justify-content: center;
   }
   div:nth-child(2) {
-    padding: 10%;
+    padding: 7% 0%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-    max-height: 500px;
+    /* max-height: 500px; */
     :nth-child(1) {
       font-size: 30px;
       text-decoration: underline;
     }
     :nth-child(2) {
       font-size: 20px;
+      max-width: 500px;
     }
     :nth-child(3) {
       font-size: 20px;
       font-weight: 700;
+      max-width: 500px;
     }
   }
 `;
@@ -42,7 +44,7 @@ const AboutMe = () => {
           <img
             src={profile}
             alt=""
-            style={{ width: "400px", height: "500px" }}
+            style={{ width: "325px", height: "100%" }}
           />
         </div>
         <div>
