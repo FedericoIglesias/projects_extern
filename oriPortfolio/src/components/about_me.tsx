@@ -19,7 +19,6 @@ const AboutSection = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    /* max-height: 500px; */
     :nth-child(1) {
       font-size: 30px;
       text-decoration: underline;
