@@ -34,7 +34,7 @@ const Proof = () => {
             Oriana <span>Rasello</span>
           </p>
           <Typist typingDelay={100} >
-            <p>Data Analyst Jr</p>
+            <p>Data Analytics Jr</p>
           </Typist>
         </div>
       </ProofSection>

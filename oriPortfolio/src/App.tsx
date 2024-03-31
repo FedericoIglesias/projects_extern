@@ -4,6 +4,7 @@ import Proof from './components/proof'
 import AboutMe from './components/about_me'
 import Skills from './components/skills'
 import Projects from './components/projects'
+import { Footer } from './components/footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <AboutMe/>
     <Skills/>
     <Projects/>
+    <Footer/>
     </>
   )
 }

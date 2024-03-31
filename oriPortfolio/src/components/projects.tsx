@@ -12,6 +12,7 @@ const TitleP = styled.p`
   color: white;
   text-align: center;
   padding: 10% 0;
+  text-decoration: underline;
 `;
 
 const CardSections = styled.section`
