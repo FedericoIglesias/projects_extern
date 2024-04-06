@@ -1,4 +1,3 @@
-import { useScrollTrigger } from "@mui/material";
 import styled from "styled-components";
 
 
@@ -21,6 +20,7 @@ width: 100%;
   }
 `;
 const Header = () => {
+// console.log(document.body.getBoundingClientRect());
 
   return (
     <>
