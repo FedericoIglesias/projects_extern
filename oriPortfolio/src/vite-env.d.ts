@@ -1,9 +1,9 @@
 /// <reference types="vite/client" />
 
-export interface Project {
-  image: string;
-  alt: string;
-  name: string;
-  description: string;
-  url:string
+export interface Repo {
+  id: number,
+  name: string,
+  html_url: string,
+  created_at: string,
+  description: string,
 }
