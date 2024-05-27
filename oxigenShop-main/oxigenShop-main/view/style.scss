@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Raleway:wght@300;400;500;600;700;800&display=swap");
+@import "parcial/_footer.scss";
+@import "parcial/_header.scss";
+@import "parcial/main/_sectionCard.scss";
+@import "parcial/main/_sectionShow.scss";
+@import "parcial/main/_sectionSale.scss";
+@import "parcial/main/_sectionContact.scss";
+@import "parcial/main/_sectionSliders.scss";
+
+.backgroundGrey {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 900;
+    width: 100%;
+    height: 120%;
+    position: fixed;
+}
+.popUp {
+    width: 60%;
+    height: 70%;
+    z-index: 1000;
+    margin: 50px;
+    position: fixed;
+    background-color: white;
+    border: black solid 1px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 10px 10px black;
+    margin-left: 20%;
+    .popUp__cross {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-end;
+        margin-top: 4px;
+        span {
+            display: block;
+            width: 10px;
+            height: 2px;
+            background-color: #08a6e4;
+            margin: 3px;
+            margin-right: 10px;
+            float: inline-end;
+        }
+        .cross__line1 {
+            transform: rotate(45deg);
+            position: relative;
+            top: 3px;
+            left: 1px;
+        }
+        .cross__line2 {
+            transform: rotate(-45deg);
+            position: relative;
+            bottom: 5px;
+            left: 1px;
+        }
+    }
+    p {
+        text-align: center;
+        color: #08a6e4;
+        font-weight: 700;
+    }
+    .popUp__form {
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        .popUp__mail {
+            color: #08a6e4;
+            font-size: 12px;
+            text-align: left;
+            font-weight: 600;
+            margin-left: 5px;
+            .mail__leter {
+                text-align: left;
+            }
+        }
+        .popUp__input {
+            width: 90%;
+            margin-left: 5px;
+            border: none;
+            border-bottom: #95989a 1px solid;
+        }
+    }
+    button {
+        width: 70%;
+        padding: 20px 0;
+        border-radius: 50px;
+        color: white;
+        font-size: 13px;
+        font-weight: 700;
+        background-color: #08a6e4;
+        border: none;
+        margin-bottom: 30px;
+        max-width: 300px;
+    }
+}
+.percentage__scroller {
+    z-index: 100;
+    background-color: #08a6e4;
+    height: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.button__up {
+    z-index: 30;
+    position: fixed;
+    bottom: 10%;
+    right: 10px;
+    width: 3%;
+}
+
+@media (min-width: 1000px) {
+    .popUp {
+        p {
+            font-size: 50px;
+        }
+        .popUp__mail {
+            margin-bottom: 20px;
+            .mail__leter {
+                font-size: 25px;
+                text-align: left;
+            }
+        }
+    }
+}
+.display_none {
+    display: none;
+}

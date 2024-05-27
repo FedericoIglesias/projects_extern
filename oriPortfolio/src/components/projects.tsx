@@ -6,15 +6,16 @@ import { Repo } from "../vite-env";
 
 const TitleP = styled.p`
   font-size: 30px;
-  color: white;
+  color: black;
   text-align: center;
-  padding: 10% 0;
+  padding: 5% 0;
   text-decoration: underline;
 `;
 
 const CardSection = styled.section`
   display: grid;
   grid-template-columns: auto auto;
+  justify-content: space-around;
 `;
 
 const Projects = () => {
@@ -39,7 +40,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section>
+    <section style={{backgroundColor: 'white'}}>
       <TitleP>Projects</TitleP>
       <CardSection>
         {projects.map((repo: Repo, index) => {

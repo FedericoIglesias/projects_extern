@@ -40,6 +40,7 @@ const SkillsTitle = styled.p`
   font-size: 30px;
   text-align: center;
   text-decoration: underline;
+  padding-bottom: 10px;
 `;
 
 const Skills = () => {

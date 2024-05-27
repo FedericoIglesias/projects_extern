@@ -11,7 +11,7 @@ const CardProject = (repo) => {
   const date: string = repositorio.created_at.substring(0,10);
 
   return (
-    <Card sx={{ width: 400 }}>
+    <Card sx={{ width: 400, marginBottom: 10, height:250, boxShadow:10 }}>
       <CardContent>
         <Typography variant="h5" component="div">
           {repositorio.name}

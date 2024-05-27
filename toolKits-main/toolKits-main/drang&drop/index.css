@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+display: flex;
+justify-content: space-around;
+}
+
+.dropZone1{
+    width: 300px;
+    min-height: 300px;
+    background-color: green;
+}
+.dropZone2{
+    width: 300px;
+    min-height: 300px;
+    background-color: red;
+}
+.item{
+    border: 1px solid black;
+    width: 100px;
+}
+.listTasks{
+    padding: 40px;
+}
+
+.cardTask{
+    background-color: yellow;
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px auto
+}

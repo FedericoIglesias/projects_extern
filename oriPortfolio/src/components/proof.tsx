@@ -5,7 +5,7 @@ import Typist from "react-typist-component";
 
 const ProofSection = styled.section`
   position: relative;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   div {
     position: absolute;
@@ -34,7 +34,7 @@ const Proof = () => {
             Oriana <span>Rasello</span>
           </p>
           <Typist typingDelay={100} >
-            <p>Data Analytics Jr</p>
+            <p>Data Analyst Jr</p>
           </Typist>
         </div>
       </ProofSection>

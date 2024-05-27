@@ -2,23 +2,28 @@ import styled from "styled-components";
 import profile from "../img/profile.jpg";
 
 const AboutSection = styled.section`
-  height: 90vh;
   display: flex;
   color: white;
   div {
     width: 50%;
-    padding: 7% 0;
+    padding: 3% 0;
+    /* aspect-ratio: 0.5; */
   }
   div:nth-child(1) {
     display: flex;
     justify-content: center;
+    height: 450px;
   }
   div:nth-child(2) {
-    padding: 7% 0%;
+    /* padding: 7% 0%; */
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    p{
+      margin: 5px 0;
+    }
     :nth-child(1) {
       font-size: 30px;
       text-decoration: underline;

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OXYGENShop</title>
+    <link rel="stylesheet" href="view/style.css">
+    <script src="https://kit.fontawesome.com/0ac045a0e5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Newsletter -->
+    <div class="backgroundGrey display_none" id="backgroundGrey"></div>
+    <div class="popUp display_none" id="popUp">
+        <div class='popUp__cross' id="popUp__cross">
+            <span class="cross__line1"></span>
+            <span class="cross__line2"></span>
+        </div>
+        <p>Subscribe to our newsletter</p>
+        <div class="popUp__form">
+            <label for="" class="popUp__mail">
+                <p class="mail__leter">EMAIL</p>
+            </label>
+            <input type="text" class="popUp__input" id="popUp__input">
+        </div>
+        <button id="popUp__send">Send</button>
+    </div>
+    <!-- bar percentage -->
+    <div class='percentage__scroller' id="percentage__scroller"></div>
+    <!-- button to up -->
+    <div><img src="img/arrowTop.svg" alt="cohete" class="button__up display_none" id="button__up"></div>
+    <header class="box__shadow" id="header">
+        <h1>OXYGENShop</h1>
+        <div class="menu__hamburguesa" id="menuBtn">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+        </div>
+        <div class="menu display_none" id="hamburguesa__menu">
+            <p id="menu__why"><a> WHY US</a></p>
+            <p id="menu__benefits"><a>BENEFITS</a></p>
+            <p id="menu__prices"><a>PRICES</a></p>
+            <p id="menu__contact"><a>CONTACT</a></p>
+        </div>
+    </header>
+    <main>
+        <section class="show">
+            <h3 class="sell-more">Sell More!</h3>
+            <p class="text-open">Open shop on our platform and increase your sales</p>
+            <div>
+                <button class="button-open">Open your shop</button>
+            </div>
+            <div class="img_main">
+                <img src="img/Background 1.svg" alt="Laptop">
+            </div>
+            <div class="subtitle-popular">
+                <p>The most popular sales platform in country</p>
+            </div>
+            <div class="articles-popular">
+                <article>
+                    <div class="circle-red"><img src="img/Person 2.svg" alt=""></div>
+                    <p class="article-number">100000+</p>
+                    <p class="article-text">daily entries</p>
+                </article>
+                <article>
+                    <div class="circle-blue"><img src="img/Eye 2.svg" alt=""></div>
+                    <p class="article-number">2000000+</p>
+                    <p class="article-text">seen products every day</p>
+                </article>
+                <article>
+                    <div class="circle-green"><img src="img/Catalog 2.svg" alt=""></div>
+                    <p class="article-number">10000+</p>
+                    <p class="article-text">added posts daily</p>
+                </article>
+            </div>
+        </section>
+        <section class="cards">
+            <article>
+                <div class="cards-container-div-img">
+                    <img src="img/Macbook2 2.svg" alt="mac">
+                    <div class="cards-red-circle"></div>
+                </div>
+                <div class="cards-hypertext">
+                    <p class="cards-title">Be always first</p>
+                    <p class="cards-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <hr class="cards-red-line">
+                </div>
+            </article>
+            <article>
+                <div class="cards-blue-circle">
+                    <img src="img/iPhone2 2.svg" alt="phone">
+                </div>
+                <div class="cards-hypertext">
+                    <p class="cards-title">Your shop is where you are</p>
+                    <p class="cards-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <div>
+                        <hr class="cards-blue-line">
+                    </div>
+                </div>
+            </article>
+            <article class="card-padding">
+                <div class="cards-hypertext">
+                    <p class="cards-title">Increase recognition your brand!</p>
+                    <p class="cards-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <div>
+                        <hr class="cards-green-line">
+                    </div>
+                </div>
+                <div class="cards-background-green">
+                    <img src="img/Trumpet 2.svg" alt="trompeta">
+                </div>
+            </article>
+        </section>
+        <section class="sale">
+            <h2>Pricing</h2>
+            <div class="currency">
+                <select class="currency__table" name="" id="currency">
+                    <option class="currency__option" value="eur">EUR</option>
+                    <option class="currency__option" value="usd">USD</option>
+                    <option class="currency__option" value="gbp">GBP</option>
+                </select>
+            </div>
+            <div class="sale-div">
+                <article class="sale-red">
+                    <div class="sale-text sale-margin-red">
+                        <p>Basic</p>
+                        <p class='sale-text-red'><span id="value__symbol">€</span>0</p>
+                    </div>
+                    <div class="sale-list">
+                        <ul>
+                            <li class="checked">100 MB HDD</li>
+                            <li class="checked">1 Subdomain</li>
+                            <li class="checked">2 E-mails</li>
+                            <li class="cross">Two years license</li>
+                            <li class="cross">Full support</li>
+                        </ul>
+                    </div>
+                    <div class="sale-button button-red">
+                        <p>Begin</p>
+                    </div>
+                </article>
+                <article class="sale-blue">
+                    <div class="sale-text sale-margin-blue">
+                        <p>Professional</p>
+                        <p class='sale-text-blue'><span id="symbol__blue">€</span><span id="value__blue">25</span></p>
+                        <p>Limited offer</p>
+                    </div>
+                    <div class="sale-list">
+                        <ul>
+                            <li class="checked">500 MB HDD</li>
+                            <li class="checked">2 Subdomains</li>
+                            <li class="checked">5 E-mails</li>
+                            <li class="checked">One year license</li>
+                            <li class="cross">Full support</li>
+                        </ul>
+                    </div>
+                    <div class="sale-button button-blue">
+                        <p>Begin</p>
+                    </div>
+                </article>
+                <article class=" sale-green">
+                    <div class="sale-text sale-margin-green">
+                        <p>Premium</p>
+                        <p class='sale-text-green'><span id="symbol__green">€</span><span id="value__green">60</span>
+                        </p>
+                        <p>Limited offer</p>
+                    </div>
+                    <div class="sale-list">
+                        <ul>
+                            <li class="checked">2GB HDD</li>
+                            <li class="checked">5 Subdomains</li>
+                            <li class="checked">20 E-mails</li>
+                            <li class="checked">Two years license</li>
+                            <li class="checked">Full support</li>
+                        </ul>
+                    </div>
+                    <div class="sale-button button-green">
+                        <p>Begin</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="slider">
+            <img src="img/black_cat.jpg" alt="" class="img__slider display_none" id="slider__1">
+            <img src="img/cat.jpg" alt="" class="img__slider display_none" id="slider__2">
+            <img src="img/cheetah-face.jpg" alt="" class="img__slider display_none" id="slider__3">
+            <img src="img/lion-face.jpg" alt="" class="img__slider display_none" id="slider__4">
+            <img src="img/lions.jpg" alt="" class="img__slider " id="slider__5">
+            <div class="slider__index">
+                <div class="button__arrow">
+                    <div class="arrow__prev" id="arrow__prev">
+                        <img src="img/arrow.svg" alt="">
+                    </div>
+                    <div class="arrow__next" id="arrow__next">
+                        <img src="img/arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="button__select">
+                    <div class="select__design" id="select__1"></div>
+                    <div class="select__design" id="select__2"></div>
+                    <div class="select__design" id="select__3"></div>
+                    <div class="select__design" id="select__4"></div>
+                    <div class="select__design background__white" id="select__5"></div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-informatio-first">
+                <div class="contact-title">
+                    <h6>Any questions?</h6>
+                    <p>Leave you email address or call us!</p>
+                </div>
+                <div class="contact-line">
+                    <div class="contact-email">
+                        <img src="img/email.svg" alt="">
+                        <p>info@bestshop.xyz</p>
+                    </div>
+                    <div class="contact-number">
+                        <img src="img/number.svg" alt="">
+                        <p>123456789</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-informatio-second">
+                <div class="contact-padding">
+                    <p class="help__1 display_none" id="help__1">The name should have beetwen 2 and 100 character</p>
+                    <p class="help__2 display_none" id="help__2">Example: 'xyz@xyz.com'</p>
+                    <label for="" class="contact-line-label">NAME</label>
+                    <br>
+                    <input type="text" class="contact-line-input " id="contact-line-name">
+                    <br>
+                    <label for="" class="contact-line-label">EMAIL</label>
+                    <br>
+                    <input type="text" class="contact-line-input " id="contact-line-mail">
+                    <br>
+                </div>
+                <div class="contact-terms">
+                    <label class="contact__checkbox" id="contact__checkbox">
+                        <input type="checkbox" name="checkedbox" class="checkbox__input" id="checkbox__input">
+                    </label>
+                    <label for="">I hereby give consent for my personal data
+                        included in my application to be processed for the purposes of the recruitment process under
+                        the
+                        European Parliament’s and Council of the European Union Regulation on the Protection of
+                        Natural
+                        Persons as of 27 April 2016, with regard to the processing of personal data and on the free
+                        movement
+                        of such data, and repealing Directive 95/46/EC (Data Protection Directive)</label>
+                </div>
+                <div class="contact-button" id="button__send">
+                    <button id="send">Send</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <Footer id="footer">
+        <section class="foot__section">
+            <div class="foot-title">
+                <h1>OXYGENShop</h1>
+                <p>© 2022 OXYGEN, All Rights Reserved</p>
+            </div>
+            <div class="foot-social">
+                <a href="https://twitter.com " class="foot-social-twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://facebook.com/" class="foot-social-facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </section>
+    </Footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
